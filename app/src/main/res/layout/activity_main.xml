@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText to take user input -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something here"
+        android:layout_marginBottom="16dp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="3" />
+
+    <!-- Button to update the TextView -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Text" />
+
+    <!-- TextView to display the typed text -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text will be updated here"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:gravity="top"
+        android:minLines="3" />
+
+    <!-- Button to change the color of TextView -->
+    <Button
+        android:id="@+id/buttonColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Color"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button to change the size of TextView -->
+    <Button
+        android:id="@+id/buttonSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Size"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
